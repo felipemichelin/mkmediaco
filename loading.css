@@ -138,10 +138,10 @@
   box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
 }
 .progress1 .cssProgress-bar {
-  height: 18px;
+  height: 8px;
 }
 .progress1 .cssProgress-label {
-  line-height: 18px;
+  line-height: 8px;
 }
 
 /* -----------------------------------------------------
@@ -149,15 +149,15 @@
 -------------------------------------------------------- */
 .progress2 {
   background-color: #EEE;
-  border-radius: 9px;
+  border-radius: 0px;
   box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
 }
 .progress2 .cssProgress-bar {
-  height: 18px;
-  border-radius: 9px;
+  height: 8px;
+  border-radius: 0px;
 }
 .progress2 .cssProgress-label {
-  line-height: 18px;
+  line-height: 8px;
 }
 
 /* -----------------------------------------------------
@@ -171,11 +171,11 @@
   border-radius: 3px;
 }
 .progress3 .cssProgress-bar {
-  height: 16px;
-  border-radius: 3px;
+  height: 8px;
+  border-radius: 0px;
 }
 .progress3 .cssProgress-label {
-  line-height: 16px;
+  line-height: 8px;
 }
 
 /* -----------------------------------------------------
