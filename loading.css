@@ -383,3 +383,131 @@
     box-shadow: 1px 0px 4px 0px #ffb74d;
   }
 }
+
+
+
+
+
+              @media (min-width: 768px) {
+    .d-flex {
+        display:-webkit-flex;
+        display: -ms-flexbox;
+        display: -ms-flex;
+        display: flex;
+        -webkit-align-items: center;
+        -ms-align-items: center;
+        align-items: center
+    }
+
+    .d-flex .w_thumb {
+        padding-right: 10px;
+        margin-bottom: 0
+    }
+
+    .d-flex .w_sub_img {
+        padding-left: 10px
+    }
+}
+
+.list-comment {
+    margin-bottom: 30px
+}
+
+.list-comment h2 {
+    font-size: 20px;
+    font-size: 1.333rem;
+    line-height: 28px;
+    margin-bottom: 25px
+}
+
+.list-comment .w_item {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -ms-flex;
+    display: flex;
+    margin-bottom: 25px
+}
+
+.list-comment .w_item .w_thumb {
+    width: 32px
+}
+
+.list-comment .w_item .w_content_wrap {
+    -webkit-flex: 1 0;
+    -ms-flex: 1 0;
+    flex: 1 0;
+    padding-left: 10px;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-size: 1rem
+}
+
+.list-comment .w_item .w_content_wrap ul {
+    display: inline-block;
+    background-color: #FFF;
+    box-shadow: 1px 1px 4px rgba(0,0,0,.3);
+    border-radius: 12px;
+    padding: 0 5px;
+    position: absolute;
+    right: 0;
+    bottom: -17px
+}
+
+.list-comment .w_item .w_content_wrap ul li {
+    display: inline-block;
+    line-height: normal;
+    list-style: none;
+    font-size: 11px;
+    font-size: .733rem;
+    position: relative;
+    z-index: 1;
+    vertical-align: middle
+}
+
+.list-comment .w_item .w_content_wrap ul li img {
+    width: 17px
+}
+
+.list-comment .w_item .w_content_wrap ul li.heart {
+    margin-left: -6px;
+    position: relative;
+    z-index: 0
+}
+
+.list-comment .w_item .w_content_wrap p:last-child {
+    margin-top: 10px
+}
+
+.list-comment .w_item .content-comment {
+    border-radius: 18px;
+    background-color: #EFF1F3;
+    position: relative;
+    padding: 10px 20px 15px 13px;
+    font-size: 15px;
+    font-size: 1rem;
+    line-height: 17px
+}
+
+@media (min-width: 768px) {
+    .list-comment {
+        margin-bottom:100px
+    }
+
+    .list-comment h2 {
+        font-size: 28px;
+        font-size: 1.867rem;
+        line-height: 40px;
+        margin-bottom: 45px
+    }
+
+    .list-comment .w_item .w_content_wrap {
+        padding-left: 15px
+    }
+
+    .list-comment .w_item .content-comment {
+        font-size: 16px;
+        font-size: 1.067rem;
+        line-height: 21px;
+        padding: 10px 40px 10px 20px
+    }
+}
